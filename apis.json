@@ -1,0 +1,147 @@
+{
+	"name": "Streadata.io API Gallery - Video Conferencing",
+	"description": "This is a repository of video conferencing APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/video-conferencing.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://video-conferencing.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Skype",
+			"x-api-slug": "skype",
+			"description": "Stay in touch! Free online calls, messaging, affordable international calling to mobiles or landlines and Skype for Business for effective collaboration.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/249-skype.jpg",
+			"humanURL": "https://developer.skype.com/",
+			"baseURL": "https:///",
+			"tags": "Video Conferencing",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/skype/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "FuzeBox",
+			"x-api-slug": "fuzebox",
+			"description": "Fuze is the Leader in Enterprise Global Voice, Video, Messaging, and Collaboration",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/598-fuzebox.jpg",
+			"humanURL": "https://www.fuze.com/",
+			"baseURL": "https:///",
+			"tags": "Video Conferencing",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/fuzebox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cisco WebEx",
+			"x-api-slug": "cisco-webex",
+			"description": "Cisco Webex is the leading enterprise solution for video conferencing & web conferencing today. This secure software-based platform for video & audio conferencing, group messaging & webinars helps organizations be more productive.Participants can join ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/730-cisco-webex.jpg",
+			"humanURL": "https://webex.com",
+			"baseURL": "https://api.ciscospark.com//v1",
+			"tags": "Video Conferencing",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/cisco-webex/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GoToMeeting",
+			"x-api-slug": "gotomeeting",
+			"description": "Citrix enables business mobility through the secure delivery of apps and data to any device on any network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg",
+			"humanURL": "https://citrixonline.com",
+			"baseURL": "https://api.citrixonline.com//identity/v1",
+			"tags": "Video Conferencing",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/gotomeeting/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ten Hands",
+			"x-api-slug": "ten-hands",
+			"description": "Simple, free, easy video collaboration. Check out http://t.co/mQQiH8RiSl today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1484-ten-hands.jpg",
+			"humanURL": "https://www.tenhands.net/developer/index.htm",
+			"baseURL": "https:///",
+			"tags": "Video Conferencing",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/ten-hands/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twelephone",
+			"x-api-slug": "twelephone",
+			"description": "",
+			"image": "",
+			"humanURL": "http://twelephone.com/#/api",
+			"baseURL": "https:///",
+			"tags": "Video Conferencing",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/twelephone/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RingCentral",
+			"x-api-slug": "ringcentral",
+			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
+			"humanURL": "http://www.ringcentral.com",
+			"baseURL": "https://platform.ringcentral.com//",
+			"tags": "Video Conferencing",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/ringcentral/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Video Conferencing",
+	"include": [
+		{
+			"name": "Skype",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/skype/apis.yaml"
+		},
+		{
+			"name": "FuzeBox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/fuzebox/apis.yaml"
+		},
+		{
+			"name": "Cisco WebEx",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/cisco-webex/apis.yaml"
+		},
+		{
+			"name": "GoToMeeting",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/gotomeeting/apis.yaml"
+		},
+		{
+			"name": "Ten Hands",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/ten-hands/apis.yaml"
+		},
+		{
+			"name": "Twelephone",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/twelephone/apis.yaml"
+		},
+		{
+			"name": "RingCentral",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/video-conferencing/master/_listings/ringcentral/apis.yaml"
+		}
+	]
+}
